@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Competency Framework Demo</title>
+    <!-- Include React, React-DOM and Recharts -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/recharts@2.1.16/umd/Recharts.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Include Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div id="root" class="container mx-auto py-8"></div>
+    
+    <script type="text/babel">
+        // Copy and paste the React component here, but modify the data loading
+        // to use the API endpoint instead of JSON files
+        const { useState, useEffect } = React;
+        const { 
+          BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
+          RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar 
+        } = Recharts;
+        
+        const CompetencyFrameworkVisualizer = () => {
+          const [userData, setUserData] = useState(null);
+          const [activeUser, setActiveUser] = useState('user_1');
+          const [activeTab, setActiveTab] = useState('competencies');
+          const [loading, setLoading] = useState(true);
+          
+          // Load data from API
+          useEffect(() => {
+            const loadData = async () => {
+              setLoading(true);
+              try {
+                const response = await fetch(`/api/user/${activeUser}`);
+                const data = await response.json();
+                setUserData(data);
+              } catch (error) {
+                console.error('Error loading visualization data:', error);
+              } finally {
+                setLoading(false);
+              }
+            };
+            
+            loadData();
+          }, [activeUser]);
+          
+          if (loading) {
+            return <div className="p-4 text-center">Loading user data...</div>;
+          }
+          
+          if (!userData) {
+            return <div className="p-4 text-center text-red-500">Error loading data</div>;
+          }
+          
+          // Rest of the React component code...
+          // (paste from your visualization-component)
+        };
+        
+        // Render the app
+        ReactDOM.render(<CompetencyFrameworkVisualizer />, document.getElementById('root'));
+    </script>
+</body>
+</html>
