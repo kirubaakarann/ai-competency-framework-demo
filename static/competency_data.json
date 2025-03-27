@@ -1,0 +1,823 @@
+{
+  "domains": [
+    {
+      "id": "ai_fundamentals",
+      "name": "AI Fundamentals",
+      "description": "Core concepts and principles of artificial intelligence",
+      "competencies": [
+        {
+          "id": "ai_concepts",
+          "name": "AI Concepts",
+          "description": "Understanding of basic AI concepts, terminology, and evolution",
+          "levels": [
+            {
+              "level": 1,
+              "description": "Recognizes basic AI terminology and can explain fundamental concepts"
+            },
+            {
+              "level": 2,
+              "description": "Understands different AI approaches and can discuss their applications"
+            },
+            {
+              "level": 3,
+              "description": "Can evaluate AI solutions critically and explain trade-offs between different approaches"
+            },
+            {
+              "level": 4,
+              "description": "Demonstrates deep knowledge of AI paradigms and can lead discussions about strategic AI implementation"
+            },
+            {
+              "level": 5,
+              "description": "Recognized expert who can contribute to the field's development and shape organizational AI vision"
+            }
+          ]
+        },
+        {
+          "id": "ml_fundamentals",
+          "name": "Machine Learning Fundamentals",
+          "description": "Understanding of machine learning concepts, algorithms, and methodologies",
+          "levels": [
+            {
+              "level": 1,
+              "description": "Familiar with basic ML concepts like supervised/unsupervised learning"
+            },
+            {
+              "level": 2,
+              "description": "Understands common ML algorithms and when they might be applicable"
+            },
+            {
+              "level": 3,
+              "description": "Can select appropriate ML approaches for specific problems and explain their reasoning"
+            },
+            {
+              "level": 4,
+              "description": "Can architect ML solutions and evaluate their effectiveness and limitations"
+            },
+            {
+              "level": 5,
+              "description": "Drives innovation in ML applications and can design novel approaches to complex problems"
+            }
+          ]
+        },
+        {
+          "id": "data_literacy",
+          "name": "Data Literacy",
+          "description": "Ability to read, understand, create, and communicate data as information",
+          "levels": [
+            {
+              "level": 1,
+              "description": "Can interpret basic data visualizations and understand data concepts"
+            },
+            {
+              "level": 2,
+              "description": "Able to manipulate and analyze data using basic tools and techniques"
+            },
+            {
+              "level": 3,
+              "description": "Proficient in data analysis, can derive meaningful insights, and communicate findings effectively"
+            },
+            {
+              "level": 4,
+              "description": "Can design data systems, develop advanced analyses, and lead data-driven decision making"
+            },
+            {
+              "level": 5,
+              "description": "Establishes data governance standards and drives organizational data strategy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_implementation",
+      "name": "AI Implementation",
+      "description": "Practical application and deployment of AI solutions",
+      "competencies": [
+        {
+          "id": "ai_development",
+          "name": "AI Development",
+          "description": "Building, testing, and deploying AI applications",
+          "levels": [
+            {
+              "level": 1,
+              "description": "Can use pre-built AI components under supervision"
+            },
+            {
+              "level": 2,
+              "description": "Able to adapt existing AI models to new use cases"
+            },
+            {
+              "level": 3,
+              "description": "Can develop custom AI solutions for specific business problems"
+            },
+            {
+              "level": 4,
+              "description": "Designs scalable AI systems and leads development teams"
+            },
+            {
+              "level": 5,
+              "description": "Pioneers new approaches in AI development and establishes best practices"
+            }
+          ]
+        },
+        {
+          "id": "ai_integration",
+          "name": "AI Integration",
+          "description": "Integrating AI capabilities into existing systems and processes",
+          "levels": [
+            {
+              "level": 1,
+              "description": "Understands basic integration concepts and requirements"
+            },
+            {
+              "level": 2,
+              "description": "Can implement simple integrations following established patterns"
+            },
+            {
+              "level": 3,
+              "description": "Designs and implements complex AI integrations across multiple systems"
+            },
+            {
+              "level": 4,
+              "description": "Architects enterprise-level AI integration strategies and frameworks"
+            },
+            {
+              "level": 5,
+              "description": "Defines organizational standards for AI integration and drives innovation"
+            }
+          ]
+        },
+        {
+          "id": "ai_deployment",
+          "name": "AI Deployment",
+          "description": "Processes and practices for deploying AI systems to production",
+          "levels": [
+            {
+              "level": 1,
+              "description": "Understands deployment concepts and can assist in deployment tasks"
+            },
+            {
+              "level": 2,
+              "description": "Can deploy AI models using established pipelines and tools"
+            },
+            {
+              "level": 3,
+              "description": "Builds robust deployment pipelines and ensures reliability"
+            },
+            {
+              "level": 4,
+              "description": "Designs deployment architectures that scale and satisfy enterprise requirements"
+            },
+            {
+              "level": 5,
+              "description": "Establishes deployment standards and drives continuous improvement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_ethics",
+      "name": "AI Ethics & Governance",
+      "description": "Ethical considerations, governance frameworks, and regulatory compliance",
+      "competencies": [
+        {
+          "id": "ethical_ai",
+          "name": "Ethical AI",
+          "description": "Understanding and applying ethical principles in AI development and use",
+          "levels": [
+            {
+              "level": 1,
+              "description": "Aware of basic ethical concerns in AI applications"
+            },
+            {
+              "level": 2,
+              "description": "Can identify potential ethical issues in AI systems and suggest mitigations"
+            },
+            {
+              "level": 3,
+              "description": "Implements ethical frameworks and ensures AI systems align with organizational values"
+            },
+            {
+              "level": 4,
+              "description": "Develops ethical guidelines and leads ethics reviews of complex AI systems"
+            },
+            {
+              "level": 5,
+              "description": "Shapes industry standards for ethical AI and drives organizational ethical vision"
+            }
+          ]
+        },
+        {
+          "id": "ai_governance",
+          "name": "AI Governance",
+          "description": "Frameworks and processes for managing AI systems responsibly",
+          "levels": [
+            {
+              "level": 1,
+              "description": "Familiar with basic governance concepts and compliance requirements"
+            },
+            {
+              "level": 2,
+              "description": "Applies governance frameworks to AI projects and ensures documentation"
+            },
+            {
+              "level": 3,
+              "description": "Develops governance procedures and ensures compliance across projects"
+            },
+            {
+              "level": 4,
+              "description": "Designs comprehensive governance frameworks aligned with regulations and best practices"
+            },
+            {
+              "level": 5,
+              "description": "Shapes organizational governance strategy and advocates for appropriate regulatory approaches"
+            }
+          ]
+        },
+        {
+          "id": "responsible_ai",
+          "name": "Responsible AI",
+          "description": "Creating fair, transparent, and accountable AI systems",
+          "levels": [
+            {
+              "level": 1,
+              "description": "Aware of responsible AI principles like fairness and transparency"
+            },
+            {
+              "level": 2,
+              "description": "Applies basic techniques to improve fairness and reduce bias in AI systems"
+            },
+            {
+              "level": 3,
+              "description": "Implements comprehensive strategies to ensure AI systems are responsible and explainable"
+            },
+            {
+              "level": 4,
+              "description": "Architects responsible AI frameworks and leads impact assessments"
+            },
+            {
+              "level": 5,
+              "description": "Pioneers approaches to responsible AI and shapes organizational or industry standards"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "ai_researcher",
+      "title": "AI Researcher",
+      "description": "Conducts research to advance AI capabilities and explore new applications",
+      "required_competencies": [
+        {
+          "id": "ai_concepts",
+          "required_level": 5
+        },
+        {
+          "id": "ml_fundamentals",
+          "required_level": 5
+        },
+        {
+          "id": "data_literacy",
+          "required_level": 4
+        },
+        {
+          "id": "ai_development",
+          "required_level": 4
+        },
+        {
+          "id": "ethical_ai",
+          "required_level": 3
+        }
+      ]
+    },
+    {
+      "id": "ml_engineer",
+      "title": "Machine Learning Engineer",
+      "description": "Designs and implements ML systems for production use",
+      "required_competencies": [
+        {
+          "id": "ai_concepts",
+          "required_level": 3
+        },
+        {
+          "id": "ml_fundamentals",
+          "required_level": 4
+        },
+        {
+          "id": "data_literacy",
+          "required_level": 4
+        },
+        {
+          "id": "ai_development",
+          "required_level": 5
+        },
+        {
+          "id": "ai_deployment",
+          "required_level": 4
+        },
+        {
+          "id": "ai_integration",
+          "required_level": 3
+        },
+        {
+          "id": "responsible_ai",
+          "required_level": 3
+        }
+      ]
+    },
+    {
+      "id": "ai_product_manager",
+      "title": "AI Product Manager",
+      "description": "Manages the development and lifecycle of AI-powered products",
+      "required_competencies": [
+        {
+          "id": "ai_concepts",
+          "required_level": 3
+        },
+        {
+          "id": "ml_fundamentals",
+          "required_level": 2
+        },
+        {
+          "id": "data_literacy",
+          "required_level": 3
+        },
+        {
+          "id": "ai_integration",
+          "required_level": 3
+        },
+        {
+          "id": "ethical_ai",
+          "required_level": 4
+        },
+        {
+          "id": "ai_governance",
+          "required_level": 3
+        },
+        {
+          "id": "responsible_ai",
+          "required_level": 4
+        }
+      ]
+    },
+    {
+      "id": "ai_ethicist",
+      "title": "AI Ethicist",
+      "description": "Ensures AI systems are developed and deployed ethically and responsibly",
+      "required_competencies": [
+        {
+          "id": "ai_concepts",
+          "required_level": 4
+        },
+        {
+          "id": "ml_fundamentals",
+          "required_level": 3
+        },
+        {
+          "id": "ethical_ai",
+          "required_level": 5
+        },
+        {
+          "id": "ai_governance",
+          "required_level": 5
+        },
+        {
+          "id": "responsible_ai",
+          "required_level": 5
+        }
+      ]
+    },
+    {
+      "id": "data_scientist",
+      "title": "Data Scientist",
+      "description": "Extracts insights from data and develops analytical models",
+      "required_competencies": [
+        {
+          "id": "ai_concepts",
+          "required_level": 3
+        },
+        {
+          "id": "ml_fundamentals",
+          "required_level": 4
+        },
+        {
+          "id": "data_literacy",
+          "required_level": 5
+        },
+        {
+          "id": "ai_development",
+          "required_level": 3
+        },
+        {
+          "id": "ethical_ai",
+          "required_level": 3
+        },
+        {
+          "id": "responsible_ai",
+          "required_level": 3
+        }
+      ]
+    }
+  ],
+  "learning_resources": [
+    {
+      "id": "course_ai_fundamentals",
+      "title": "Introduction to AI Fundamentals",
+      "type": "course",
+      "provider": "AI Learning Academy",
+      "url": "https://ailearning.example/courses/ai-fundamentals",
+      "duration": "8 hours",
+      "competencies": [
+        {
+          "id": "ai_concepts",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "id": "course_ml_basics",
+      "title": "Machine Learning Foundations",
+      "type": "course",
+      "provider": "Tech Learning Hub",
+      "url": "https://techlearning.example/courses/ml-foundations",
+      "duration": "20 hours",
+      "competencies": [
+        {
+          "id": "ml_fundamentals",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "id": "certification_ai_ethics",
+      "title": "Certified AI Ethics Professional",
+      "type": "certification",
+      "provider": "Ethics in AI Institute",
+      "url": "https://ethicsinai.example/certifications/ethics-professional",
+      "duration": "40 hours",
+      "competencies": [
+        {
+          "id": "ethical_ai",
+          "level": 4
+        },
+        {
+          "id": "responsible_ai",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "id": "workshop_ai_governance",
+      "title": "AI Governance Workshop",
+      "type": "workshop",
+      "provider": "AI Governance Council",
+      "url": "https://aigovernance.example/workshops/governance-essentials",
+      "duration": "16 hours",
+      "competencies": [
+        {
+          "id": "ai_governance",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "id": "course_advanced_ml",
+      "title": "Advanced Machine Learning Techniques",
+      "type": "course",
+      "provider": "ML Masters Academy",
+      "url": "https://mlmasters.example/courses/advanced-ml",
+      "duration": "40 hours",
+      "competencies": [
+        {
+          "id": "ml_fundamentals",
+          "level": 4
+        },
+        {
+          "id": "ai_development",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "id": "course_ai_deployment",
+      "title": "Deploying AI in Production",
+      "type": "course",
+      "provider": "Production AI Institute",
+      "url": "https://productionai.example/courses/deployment",
+      "duration": "24 hours",
+      "competencies": [
+        {
+          "id": "ai_deployment",
+          "level": 4
+        },
+        {
+          "id": "ai_integration",
+          "level": 3
+        }
+      ]
+    }
+  ],
+  "career_paths": [
+    {
+      "id": "ml_engineer_path",
+      "title": "Machine Learning Engineer Path",
+      "description": "Career progression for ML Engineers",
+      "stages": [
+        {
+          "level": 1,
+          "title": "Junior ML Engineer",
+          "required_competencies": [
+            {
+              "id": "ai_concepts",
+              "required_level": 2
+            },
+            {
+              "id": "ml_fundamentals",
+              "required_level": 2
+            },
+            {
+              "id": "data_literacy",
+              "required_level": 3
+            },
+            {
+              "id": "ai_development",
+              "required_level": 2
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "title": "ML Engineer",
+          "required_competencies": [
+            {
+              "id": "ai_concepts",
+              "required_level": 3
+            },
+            {
+              "id": "ml_fundamentals",
+              "required_level": 3
+            },
+            {
+              "id": "data_literacy",
+              "required_level": 3
+            },
+            {
+              "id": "ai_development",
+              "required_level": 3
+            },
+            {
+              "id": "ai_deployment",
+              "required_level": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "title": "Senior ML Engineer",
+          "required_competencies": [
+            {
+              "id": "ai_concepts",
+              "required_level": 3
+            },
+            {
+              "id": "ml_fundamentals",
+              "required_level": 4
+            },
+            {
+              "id": "data_literacy",
+              "required_level": 4
+            },
+            {
+              "id": "ai_development",
+              "required_level": 4
+            },
+            {
+              "id": "ai_deployment",
+              "required_level": 3
+            },
+            {
+              "id": "ai_integration",
+              "required_level": 3
+            },
+            {
+              "id": "responsible_ai",
+              "required_level": 2
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "title": "Lead ML Engineer",
+          "required_competencies": [
+            {
+              "id": "ai_concepts",
+              "required_level": 4
+            },
+            {
+              "id": "ml_fundamentals",
+              "required_level": 4
+            },
+            {
+              "id": "data_literacy",
+              "required_level": 4
+            },
+            {
+              "id": "ai_development",
+              "required_level": 5
+            },
+            {
+              "id": "ai_deployment",
+              "required_level": 4
+            },
+            {
+              "id": "ai_integration",
+              "required_level": 4
+            },
+            {
+              "id": "responsible_ai",
+              "required_level": 3
+            },
+            {
+              "id": "ethical_ai",
+              "required_level": 3
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "title": "Principal ML Engineer",
+          "required_competencies": [
+            {
+              "id": "ai_concepts",
+              "required_level": 4
+            },
+            {
+              "id": "ml_fundamentals",
+              "required_level": 5
+            },
+            {
+              "id": "data_literacy",
+              "required_level": 4
+            },
+            {
+              "id": "ai_development",
+              "required_level": 5
+            },
+            {
+              "id": "ai_deployment",
+              "required_level": 5
+            },
+            {
+              "id": "ai_integration",
+              "required_level": 4
+            },
+            {
+              "id": "responsible_ai",
+              "required_level": 4
+            },
+            {
+              "id": "ethical_ai",
+              "required_level": 4
+            },
+            {
+              "id": "ai_governance",
+              "required_level": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai_ethicist_path",
+      "title": "AI Ethics Specialist Path",
+      "description": "Career progression for AI Ethics specialists",
+      "stages": [
+        {
+          "level": 1,
+          "title": "Ethics Analyst",
+          "required_competencies": [
+            {
+              "id": "ai_concepts",
+              "required_level": 2
+            },
+            {
+              "id": "ethical_ai",
+              "required_level": 2
+            },
+            {
+              "id": "responsible_ai",
+              "required_level": 2
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "title": "Ethics Specialist",
+          "required_competencies": [
+            {
+              "id": "ai_concepts",
+              "required_level": 3
+            },
+            {
+              "id": "ml_fundamentals",
+              "required_level": 2
+            },
+            {
+              "id": "ethical_ai",
+              "required_level": 3
+            },
+            {
+              "id": "responsible_ai",
+              "required_level": 3
+            },
+            {
+              "id": "ai_governance",
+              "required_level": 2
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "title": "Senior Ethics Specialist",
+          "required_competencies": [
+            {
+              "id": "ai_concepts",
+              "required_level": 3
+            },
+            {
+              "id": "ml_fundamentals",
+              "required_level": 3
+            },
+            {
+              "id": "ethical_ai",
+              "required_level": 4
+            },
+            {
+              "id": "responsible_ai",
+              "required_level": 4
+            },
+            {
+              "id": "ai_governance",
+              "required_level": 3
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "title": "Ethics Team Lead",
+          "required_competencies": [
+            {
+              "id": "ai_concepts",
+              "required_level": 4
+            },
+            {
+              "id": "ml_fundamentals",
+              "required_level": 3
+            },
+            {
+              "id": "ethical_ai",
+              "required_level": 4
+            },
+            {
+              "id": "responsible_ai",
+              "required_level": 5
+            },
+            {
+              "id": "ai_governance",
+              "required_level": 4
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "title": "Chief Ethics Officer",
+          "required_competencies": [
+            {
+              "id": "ai_concepts",
+              "required_level": 4
+            },
+            {
+              "id": "ml_fundamentals",
+              "required_level": 3
+            },
+            {
+              "id": "ethical_ai",
+              "required_level": 5
+            },
+            {
+              "id": "responsible_ai",
+              "required_level": 5
+            },
+            {
+              "id": "ai_governance",
+              "required_level": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
